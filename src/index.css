@@ -1,3 +1,14 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+
+  nav {
+    @apply flex justify-center items-center gap-4
+  }
+
+  .link {
+    @apply text-xl 
+  }
+}
